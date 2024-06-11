@@ -2,6 +2,7 @@
  * Calculate the nth Fibonacci number using an iterative approach.
  *
  * Time complexity: O(n)
+ * Space complexity: O(1)
  */
 export function fib(n: number): number {
   if (n < 0) {
