@@ -1,6 +1,6 @@
 ## Calculate the nth Fibonacci number using an iterative approach.
 
-## Time Complexity
+### Time Complexity
 
 The time complexity of this function is `O(n)` because it contains a single loop that runs `n` times, where n is the input to the function.
 
@@ -8,7 +8,7 @@ In each iteration of the loop, a constant amount of work is done: a new Fibonacc
 
 Since the amount of work done in each iteration does not depend on the size of the input, the total amount of work is proportional to the size of the input, hence the time complexity is linear, or `O(n)`.
 
-## Space Complexity
+### Space Complexity
 
 The space complexity of this function is `O(1)`, which means it uses a constant amount of space regardless of the input size.
 
