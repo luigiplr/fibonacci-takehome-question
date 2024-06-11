@@ -24,6 +24,10 @@ for (let [fib, approach] of fibs) {
       expect(fib(10)).toBe(55);
     });
 
+    test("should return correct Fibonacci number for input 20", () => {
+      expect(fib(20)).toBe(6765);
+    });
+
     test("should throw error for negative input", () => {
       expect(() => fib(-1)).toThrow("Input must be a non-negative integer");
     });
